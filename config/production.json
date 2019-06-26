@@ -1,0 +1,8 @@
+{
+    "db_config": {
+        "host": "mysql-server",
+        "user": "root",
+        "password": "cmpt470",
+        "database": "testdb"
+    }
+}

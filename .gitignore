@@ -1,0 +1,8 @@
+/node_modules
+/lib
+/data
+/mysql-docker/data
+.env
+.DS_Store
+.package-lock.json
+.vagrant

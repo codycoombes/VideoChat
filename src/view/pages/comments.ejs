@@ -1,0 +1,34 @@
+<div>
+	<div id="comment-title">
+		<h4>Comments (<%=allcomments.length%>)</h4>
+	</div>
+</div>
+<div>
+	<div class="col-12" id="comments">
+		<% for (var i=0; i<allcomments.length; i++) { %>
+			<div class="comment-container">
+
+				<div class="comment-info">
+					<a href="<%='/profile/'+ allcomments[i].user.username%>">
+						<%= allcomments[i].user.username %>
+					</a> |
+					<%= allcomments[i].timestamp %>
+				</div>
+				<div class="comment-control">
+					<% if ((user) && (user.id == allcomments[i].user_id)) { %>
+						&nbsp;|
+						<form class="delete-form" action="" method="post">
+							<input type="hidden" name="videoid" value="<%=videoid%>" />
+							<input type="hidden" name="commentid" value="<%=allcomments[i].id%>" />
+							<input class="btn btn-default btn-xs delete-button" type="submit" value="Delete" />
+						</form>
+						<% } %>
+				</div>
+				<div class="comment-text">
+					<span class="more"><%= allcomments[i].text %></span>
+				</div>
+			</div>
+			<% } %>
+
+	</div>
+</div>
