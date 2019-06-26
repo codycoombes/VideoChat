@@ -8,6 +8,8 @@
 </h1>
 
 ---------------------
+## SFU CMPT 470 FINAL PROJECT
+### By Cody Coombes, Andy Chen, June Kim, Jessie Leung, Jarrod Haas 
 
 ## About
 VideoChat is a full-stack web information system powered by ExpressJS and React. It uses <a scr="https://babeljs.io/">Babel</a> to trans-compile the latest JavaScript syntax into regular JavaScript. It offers browser backward compatibility up to IE8. We decided to use Docker as our configuration management tool. It let us run Nginx, MySQL, and project docker containers inside a virtual machine using Vagrant.
@@ -34,13 +36,13 @@ VideoChat is a full-stack web information system powered by ExpressJS and React.
 * Database schema with Sequelize
 
 #### Database Schema
-Please visit our wiki page to see our [database schema](/../wikis/database).
+Please visit our wiki page to see our [database schema](https://github.com/codycoombes/VideoChat/wiki/database).
 
 #### API routes
-Please visit our wiki page to see our [api](/../wikis/api).
+Please visit our wiki page to see our [api](https://github.com/codycoombes/VideoChat/wiki/api).
 
 #### Issues
-Please visit our issue page to see our [known issues](/../issues).
+Websocket only works on the same browser with multiple tabs. When opened two different browsers, websocket doesn't sync well.
 
 #### Default Users
 ```ruby
@@ -63,4 +65,4 @@ Please install Docker at <a href="https://www.docker.com/">https://www.docker.co
 Run with `sh start.sh`. This will build the Docker Containers for both MySQL and the main project.
 
 #### Linux, MacOS, Windows and MySQL setup
-Please refer to [how-to-setup](/../wikis/how-to-setup) for alternative installation
+Please refer to [how-to-setup](https://github.com/codycoombes/VideoChat/wiki/how-to-set-up) for alternative installation
