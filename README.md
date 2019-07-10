@@ -9,7 +9,7 @@
 
 ---------------------
 ## SFU CMPT 470 FINAL PROJECT
-### By Cody Coombes, Andy Chen, June Kim, Jessie Leung, Jarrod Haas 
+### By Cody Coombes, Andy Chen, and Jessie Leung 
 
 ## About
 VideoChat is a full-stack web information system powered by ExpressJS and React. It uses <a scr="https://babeljs.io/">Babel</a> to trans-compile the latest JavaScript syntax into regular JavaScript. It offers browser backward compatibility up to IE8. We decided to use Docker as our configuration management tool. It let us run Nginx, MySQL, and project docker containers inside a virtual machine using Vagrant.
